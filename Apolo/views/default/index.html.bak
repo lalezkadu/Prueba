@@ -1,9 +1,9 @@
 {{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
 {{extend 'layout.html'}}
 
-<!-- Accesos directos del usuario  -->
+<!-- Accesos directos para el usuario  -->
 <div class="container bg-0">
-    <br /><br /><br /><br /><br /><br />
+     <br /><br /><br /><br /><br /><br />
     <div class="row">
         <div class="box">
             <div class="text-center sizeAdjust">
@@ -11,7 +11,7 @@
                     <a href="#" class="thumbnail" style="background-color:white;">
                         <h3>
                           SERVICIOS
-                          <br />
+                          <br /><br />
                           <p><span style="font-size:5em;" class="glyphicon glyphicon-fire">
                           <br />
                          </h3>
@@ -21,7 +21,7 @@
                    <a href="#" class="thumbnail" style="background-color:white;">
                        <h3>
                            PARTE
-                           <br />
+                           <br /><br />
                            <p><span style="font-size:5em;" class="glyphicon glyphicon-list-alt">
                            <br />
                        </h3>
@@ -31,7 +31,7 @@
                    <a href='../default/perfilth.html' class="thumbnail" style="background-color:white;">
                        <h3>
                            PERFIL
-                           <br />
+                           <br /><br />
                            <p><span style="font-size:5em;" class="glyphicon glyphicon-user">
                            <br />
                        </h3>
@@ -50,6 +50,7 @@
         </div>
     </div>
     <!-- Carrusel -->
+    <!-- ESTA CABLEADO, MAS ADELANTE GENERAR COMUNICADOS -->
     <div>
       <div class="row" style="font-family:roboto;">
         <div class="box">
@@ -91,6 +92,7 @@
             </a>
           </div>
         </div>
+            
         <!-- Twitter de Bomberos -->
         <div class="col-xs-4 text-right sizeAdjust" style="font-family:roboto;">
             <a class="twitter-timeline" data-lang="es" data-width="300" data-height="450" href="https://twitter.com/BomberosUSB">Tweets by BomberosUSB</a>

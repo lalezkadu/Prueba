@@ -20,6 +20,8 @@ def index():
     response.flash = T("Hello World")
     return dict(message=T('Welcome to web2py!'))
 
+def indexno():
+    return dict()
 
 def user():
     """
@@ -40,6 +42,12 @@ def user():
     return dict(form=auth())
 
 def perfilth():
+    return dict()
+
+def perfilmodth():
+    return dict()
+
+def buscarth():
     return dict()
 
 @cache.action()
