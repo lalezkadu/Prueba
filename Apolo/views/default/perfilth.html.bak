@@ -1,0 +1,34 @@
+{{extend 'layout.html'}}
+<h1>This is the perfilth.html template</h1>
+{{=BEAUTIFY(response._vars)}}
+
+<div class="container" style="font-family:roboto;">
+    <br /><br /><br /><br /><br /><br />
+    <div class="row">
+        <!-- Foto -->
+        <div class="col-xs-4">
+            <div class="box">
+                <img src="{{=URL('static','images/apolo.png')}}" width="200px" height="200px">
+            </div>
+        </div>
+        <!-- Nombre del usuario -->
+        <b> <div class="col-xs-4 text-center" style="font-size:40px;"> Apolo </div> </b>
+    </div>
+    <br />
+    <br />
+    <br />
+    <!-- Datos -->
+    <div class="row">
+        <b>
+        <div class="col-xs-6 text-center" style="font-size:30px;">Datos Básicos</div>
+        <div class="col-xs-6 text-center" style="font-size:30px;">Datos de Contacto</div>
+        </b>
+    </div>
+    
+    <br /><br /><br />
+    <!-- Cursos -->
+    <b> <div class="col-xs-12 text-center" style="font-size:30px;"> Cursos </div> </b>
+    <br /><br /><br />
+    <!-- Ascenso -->
+    <b> <div class="col-xs-12 text-center" style="font-size:30px;"> Ascenso </div> </b>
+</div>
