@@ -1,5 +1,7 @@
 {{extend 'layout.html'}}
 <h1>This is the perfilth.html template</h1>
+<!-- Obtener informacion del usuario por su id -->
+<!-- {{=datos_persona}} -->
 {{=BEAUTIFY(response._vars)}}
 
 <div class="container" style="font-family:roboto;">

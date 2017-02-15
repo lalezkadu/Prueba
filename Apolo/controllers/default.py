@@ -42,6 +42,7 @@ def user():
     return dict(form=auth())
 
 def perfilth():
+    #return dict(datos_persona=db(db.persona.id==auth.user.id).select())
     return dict()
 
 def perfilmodth():
